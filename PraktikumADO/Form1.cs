@@ -171,7 +171,7 @@ namespace PraktikumADO
         private void btnTambahData_Click(object sender, EventArgs e)
         {
             try
-            {
+            { 
                 Koneksi();
                 conn.Open();
 
