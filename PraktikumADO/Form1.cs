@@ -161,7 +161,7 @@ namespace PraktikumADO
                 MessageBox.Show("Jumlah baris terpengaruh : " + hasil);
 
                 conn.Close();
-            } 
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -171,7 +171,7 @@ namespace PraktikumADO
         private void btnTambahData_Click(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 Koneksi();
                 conn.Open();
 
@@ -188,7 +188,7 @@ namespace PraktikumADO
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }  
-        } 
-     } 
-}        
+            }
+        }
+    }
+}
